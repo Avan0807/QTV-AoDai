@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Áo dài</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = [];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>QTV Áo Dài Việt Nam tự hào là địa chỉ tin cậy cho những người yêu thời trang truyền thống và mong muốn trải nghiệm 
+                    vẻ đẹp tinh tế của áo dài Việt Nam. Chúng tôi đã khẳng định vị thế của mình trên thị trường từ năm 2003, khi trở 
+                    thành một trong những cửa hàng đầu tiên phân phối áo dài độc đáo tại Hà Nội. Từ năm 2005, chúng tôi đã hạnh phúc 
+                    được đồng hành cùng quý khách hàng thông qua việc trở thành nhà phân phối của tất cả các cửa hàng lớn nhỏ khắp Việt Nam.
+                </p>
+
+                <br />
+                <p>
+                    Với gần 20 năm kinh nghiệm, chúng tôi tự tin mang đến khách hàng sự hài lòng và thỏa mãn với các sản phẩm áo 
+                    dài chất lượng cao.Sứ mệnh của chúng tôi không chỉ là bán áo dài, mà còn là trải nghiệm văn hóa truyền thống 
+                    thông qua từng đường may tinh tế và chi tiết tỉ mỉ.
+                    <br />
+                    Đội ngũ nhân viên nhiệt tình và đầy kinh nghiệm của chúng tôi luôn sẵn sàng hỗ trợ khách hàng trong việc chọn 
+                    lựa những bộ áo dài phản ánh đẹp đẽ và truyền thống nhất. Chúng tôi cam kết cung cấp đến tận tay khách hàng 
+                    những sản phẩm chính hãng với chất lượng đảm bảo và giá cả hợp lý nhất.
+                    <br />
+                    Mục tiêu của chúng tôi không chỉ là kinh doanh, mà còn là xây dựng thương hiệu uy tín và giữ vững lòng tin 
+                    của khách hàng. Chúng tôi luôn trân trọng mọi đóng góp từ phía khách hàng, vì chúng tôi tin rằng sự phát 
+                    triển của QTV Áo Dài Việt Nam là nhờ vào sự đồng lòng và ủng hộ từ quý khách hàng trong suốt hành trình 
+                    gần 10 năm qua.
+                    <br />
+                    Chúng tôi không chỉ là nơi để bạn mua áo dài, mà còn là điểm đến của niềm đam mê với vẻ đẹp truyền thống, 
+                    nơi kết nối những người yêu thủ công và giữ gìn nét đẹp độc đáo của áo dài Việt Nam. QTV Áo Dài Việt Nam 
+                    cam kết tiếp tục nỗ lực, không ngừng sáng tạo để xứng đáng với lòng tin và sự ủng hộ của quý khách hàng.
+                    Chân thành cảm ơn tất cả các khách hàng đã, đang và sẽ ủng hộ chúng tôi trong hành trình chăm sóc và phát 
+                    triển văn hóa áo dài Việt Nam.
+                </p>
+
+                <br />
+                <p>
+                    Chúng tôi xin chân thành cảm ơn tất cả các khách hàng đã, đang và sẽ ủng hộ chúng tôi.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>

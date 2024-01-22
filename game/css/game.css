@@ -1,0 +1,179 @@
+.img_banbaucua {
+  width: 60%;
+}
+
+.main {
+  background-image: url("../img/background-Tet-1.jpg");
+  /* height: 1000p; */
+  width: 100%;
+}
+
+#money {
+  background-color: rgba(83, 39, 39, 0);
+  border: none;
+}
+
+.info {
+  padding: 20px 0px 0px 0px;
+}
+
+.info_title {
+  text-align: center;
+}
+
+.info_user {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info_bet {
+  text-align: center;
+}
+
+.info_title {
+  color: yellow;
+}
+
+.info_wallet {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding-right: 8%;
+}
+
+.money {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-right: 5%;
+}
+
+.infobetmoney {
+  display: flex;
+  justify-content: center;
+}
+
+.sub,
+.add,
+.moneybet {
+  cursor: pointer;
+}
+
+.space {
+  margin: auto;
+  justify-content: center;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgwapper {
+  width: 25%;
+  margin: 10px 20px;
+  position: relative;
+}
+
+.input_price_bet {
+  border-radius: 4px solid rgb(126, 22, 22);
+  width: 50%;
+  background: url("../img/moneydollar.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 20px;
+  left: 25%;
+  /* right: 3%; */
+  background-color: rgba(145, 87, 87, 0);
+  color: rgb(83, 39, 39);
+  border: none;
+  animation: gofromtop 0.5s forwards;
+}
+
+@-webkit-keyframes gofromtop {
+  0% {
+      opacity: 0;
+      transform: translateY(-400%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0%); 
+  }
+}
+
+.img_baucua {
+  border-radius: 30px;
+  width: 100%;
+  margin: 20px 0px 5px 0px;
+}
+
+.img_baucua:hover {
+  cursor: pointer;
+  border: 2px solid yellow;
+}
+
+.roll {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.rollstart{
+  border-radius: 30px;
+}
+
+.dice {
+  border-radius: 18px;
+  margin: 20px;
+}
+
+#dice_bau {
+  width: 160px;
+  height: 160px;
+  background: url("../img/dice/bau.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dice_cua {
+  width: 160px;
+  height: 160px;
+  background: url("../img/dice/cua.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dice_tom {
+  width: 160px;
+  height: 160px;
+  background: url("../img/dice/tom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dice_ca {
+  width: 160px;
+  height: 160px;
+  background: url("../img/dice/ca.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dice_nai {
+  width: 160px;
+  height: 160px;
+  background: url("../img/dice/nai.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dice_ga {
+  width: 160px;
+  height: 160px;
+  background: url("../img/dice/ga.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start_button {
+  margin: auto;
+}
+
+.start_button:hover {
+  cursor: pointer;
+}
